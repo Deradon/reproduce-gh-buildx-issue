@@ -50,7 +50,7 @@ jobs:
           file: Dockerfile
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          cache-from: |
-            type=registry,ref=${{ steps.meta.outputs.tags }}
-            type=registry,ref=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main
+          # cache-from: |
+          #   type=registry,ref=${{ steps.meta.outputs.tags }}
+          #   type=registry,ref=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main
           cache-to: type=inline
