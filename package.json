@@ -2,7 +2,7 @@
   "name": "Foo bar",
   "version": "1.0.0",
   "private": true,
-  "description": "Small description for companies goes here",
+  "description": "Small description for companies goes here + 1",
   "repository": "",
   "license": "MIT",
   "author": "",
